@@ -1,0 +1,15 @@
+Varsha Singh, varsingh@bu.edu
+
+https://static.lwn.net/images/pdf/LDD3/ch07.pdf
+https://static.lwn.net/images/pdf/LDD3/ch02.pdf
+https://www.oreilly.com/library/view/linux-device-drivers/0596000081/ch03s02.html
+https://linux.die.net/man/8/insmod
+https://embetronicx.com/tutorials/linux/device-drivers/using-kernel-timer-in-linux-device-driver/#:~:text=Timer%20in%20Linux%20Kernel,for%20a%20variety%20of%20tasks.
+https://stackoverflow.com/questions/942273/what-is-the-ideal-fastest-way-to-communicate-between-kernel-and-user-space
+
+Some assumptions made were those provided:
+[SEC] will be an integer between 1 and 86,400 (inclusive)
+[COUNT] will be an integer between 1 and 5 (inclusive)
+[MSG] will be a string no longer than 128 characters. The strings with which we will test your submission contain only alphanumerics, spaces, tabs, and/or the following special characters: !@#$%^&*(),./\:
+
+Additionally, I assumed that there wouldn't be an instance in which we are lowering the number of possible timers when there are more than these many timers in use. This was not displayed in the video and was not accounted for in the directions, therefore would have undefined behavior.
